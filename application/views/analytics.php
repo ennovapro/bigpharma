@@ -181,7 +181,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="col-lg-12">
-                                    <h3>Future Dates</h3>
+                                    <h3>Appointments</h3>
                                 </div>
                                 <!-- BEGIN CALENDAR -->
                                 <div class="col-sm-12">
