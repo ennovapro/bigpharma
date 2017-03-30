@@ -1,0 +1,28 @@
+a{
+	text-decoration: none !important;
+	}
+	
+input[type=file] {
+
+}
+
+.col-centered{
+	float: none;
+	margin: 0 auto;
+}
+
+.pointer{
+	cursor:pointer;
+}
+
+.hover:hover{
+	background-color:#0aa89e; 
+}
+
+/*
+*A custom hide class that won't conflict with the bootstrap hide class.
+*/
+.myHide{
+	display:none;
+	}
+	

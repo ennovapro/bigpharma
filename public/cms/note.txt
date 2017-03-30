@@ -1,0 +1,5 @@
+William Hua 01/06/2016:
+- I made a folder in here called analytics, this will be files specific to analytics
+- I was confused by folder structure here since in assets/js/ there is a folder "core" "custom" and "libs" and I'm not sure what is what
+
+- This should be more thought out

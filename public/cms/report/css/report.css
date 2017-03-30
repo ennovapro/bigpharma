@@ -1,0 +1,19 @@
+/*
+.alert.alert-callout:before {
+    background: #db3e51;
+}
+*/
+
+.nav-tabs > li.active > a:focus {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.nav-tabs.sub-menu-tabs > li.active > a {
+    border-bottom-color: #ffffff;
+}
+
+.nav-tabs.sub-menu-tabs > li > a {
+    color: #ffffff;
+}
+
