@@ -20,18 +20,18 @@
     <link type="text/css" rel="stylesheet" href="public/backend/cms/assets/css/theme-default/materialadmin.css?1425466319" />
     <link type="text/css" rel="stylesheet" href="public/backend/cms/assets/css/theme-default/font-awesome.min.css?1422529194" />
     <link type="text/css" rel="stylesheet" href="public/backend/cms/assets/css/theme-default/material-design-iconic-font.min.css?1421434286" />
-    <link type="text/css" rel="stylesheet" href="public/backend/cms/assets/css/theme-default/libs/fullcalendar/fullcalendar.css?1422823368" />
     <link type="text/css" rel="stylesheet" href="public/backend/cms/assets/css/theme-default/libs/rickshaw/rickshaw.css?1422792967" />
     <link type="text/css" rel="stylesheet" href="public/backend/cms/assets/css/theme-default/libs/morris/morris.core.css?1420463396" />
+    <link type="text/css" rel="stylesheet" href="public/backend/cms/assets/css/theme-default/libs/fullcalendar/fullcalendar.css?1422823368" />
     <link type="text/css" rel="stylesheet" href="public/backend/cms/report/css/report.css"/>
     <style type="text/css">
         .alert.alert-callout:before {
-            background: #F50057;
+            background: #f45f21;
         }
 
         .nav-tabs.graph-tabs > li.active > a {
-            color: #F50057;
-            border-color: #F50057;
+            color: #f45f21;
+            border-color: #f45f21;
         }
 
     </style>
@@ -44,11 +44,11 @@
     <![endif]-->
 </head>
 
-<body class="menubar-hoverable header-fixed ">
-<div style="height: 300px; background-color: #3F51B5;">
+<body class="menubar-hoverable header-fixed">
+<div style="height: 300px; background-color: #83d2bd;">
     <div id="header-container" style="padding-left: 12%; padding-right: 12%;">
-        <h1 style="color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding-top: 36px; font-weight: 300;"> Experiment: Narlespin Capsules </h1>
-        <!-- <h3 style="color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding-top: 8px; font-weight: 100;"> Experiment: Narlespin Capsules </h3> -->
+        <h1 style="color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding-top: 36px; font-weight: 300;"> Peter Gregory </h1>
+        <h3 style="color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding-top: 8px; font-weight: 100;"> Alercron Acne Cream</h3>
         <div class="btn-group">
             <button type="button" class="btn-flat dropdown-toggle" data-toggle="dropdown" aria-expanded="false" style="margin-left: -8px;">
                 <h3 style="color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding-top: 8px; font-weight: 100;"> Session #1
@@ -63,28 +63,11 @@
                 <li><a>Session #5</a></li>
             </ul>
         </div>
-        <!-- <div class="row" style="margin-top: 12px;">
-            <div class="col-md-12">
-                <div class="card-head">
-                    <ul class="nav nav-tabs sub-menu-tabs" data-toggle="tabs" style="border-bottom: 0px; padding-left: 0px; padding-right: 0px;">
-                    <li class="active">
-                        <a>Session #1</a>
-                    </li>
-                    <li>
-                        <a>Session #2</a>
-                    </li>
-                    <li>
-                        <a>Session #3</a>
-                    </li>
-                    </ul>
-                </div>
-            </div>
-        </div> -->
     </div>
 </div>
 
 <!-- BEGIN CONAINER -->
-<div id="container" style="padding-left: 12%; padding-right: 12%; margin-top: -180px;">
+<div id="container" style="padding-left: 12%; padding-right: 12%; margin-top: -150px;">
     <!-- BEGIN CONTENT-->
     <div> <!--  id="content"> -->
         <div class="section-body">
@@ -98,23 +81,49 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="card">
-                                        <div class="card-head">
-                                            <ul class="nav nav-tabs graph-tabs pull-left" data-toggle="tabs" style="border-bottom-width: 0px;">
-                                                <li id="users-tab-header" class="active">
-                                                    <a href="#users-tab" style="display: inline-block; padding-right: 20px; padding-left: 20px;">USERS</a>
-                                                </li>
-                                                <li id="sessions-tab-header">
-                                                    <a href="#sessions-tab" style="display: inline-block; padding-right: 20px; padding-left: 20px;">SESSIONS</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="card-body height-8 tab-content" style="margin-top: 10px;"> <!-- TEMP FOR SCREENSHOT, STYLE -->
-                                            <div class="tab-pane active" id="users-tab">
-                                                Users content
-                                            </div>
-                                            <div class="tab-pane" id="sessions-tab"> <!-- TEMP SETTING ACTIVE ON THIS INSTEAD OF USERS TAB BECAUSE MORRIS GRAPH ISSUES -->
-                                                Session content
+                                    <div class="col-lg-12" style="padding-left: 0px; padding-right: 0px;">
+                                        <h3 style="margin-top: 0px; margin-bottom: 12px; color: white;"><!--Overview--> <br/></h3>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-head">
+                                                    <ul class="nav nav-tabs graph-tabs pull-left" data-toggle="tabs" style="border-bottom-width: 0px;">
+                                                        <li id="users-tab-header" class="active">
+                                                            <a href="#users-tab" style="display: inline-block; padding-right: 20px; padding-left: 20px;">Overview</a>
+                                                        </li>
+                                                        <li id="sessions-tab-header">
+                                                            <a href="#sessions-tab" style="display: inline-block; padding-right: 20px; padding-left: 20px;">What to bring</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="card-body height-8 tab-content" style="margin-top: 10px;"> <!-- TEMP FOR SCREENSHOT, STYLE -->
+                                                    <div class="tab-pane active" id="users-tab">
+                                                        <b>Session 1 Logistics</b><br/>
+                                                        <ul>
+                                                       		<li>Date- 5/25/17</li>
+                                                       		<li>Time- 3:00pm</li>
+                                                       		<li>Location- 10801 MoPac Expy, Austin, TX 78759</li>
+                                                        </ul>
+
+
+                                                        <b>Intro</b><br/>
+                                                        Thanks for taking part in the Alercron Acne Cream study! In the first session, we will conduct a full overview of your health history in skincare. After completing the required paperwork, we'll jump straight into the skin physical to review your current skin health status. 
+                                                        <br/><br/>
+                                                        You will be having this session with a dermatologist who has had extensive experience in treating acne. We hope you enjoy this trial. Good luck! If you have any questions, don't hesitate to reach out to us.
+
+                                                    </div>
+                                                    <div class="tab-pane" id="sessions-tab"> <!-- TEMP SETTING ACTIVE ON THIS INSTEAD OF USERS TAB BECAUSE MORRIS GRAPH ISSUES -->
+                                                        In the first session, please remember to bring the following items:<br/>
+                                                        <ul>
+                                                        	<li><a href="https://www.driverslicenseguide.com/book-us-sample-pages.html" target="_blank">Valid ID</a></li>
+                                                        	<li><a href="http://safe-sleep.com/2014/assets/public/images/forms/MedicalRecordsRelease.pdf" target="_blank">Medical Release Form</a></li>
+                                                        	<li><a href="http://www.uwmedicine.org/neighborhood-clinics/documents/adult-heath-history-form.pdf" target="_blank">Medical History Questionnaire</a></li>
+                                                        	<li><a href="http://isym.music.illinois.edu/pdfs/food_allergies_form.pdf" target="_blank">Allergy Form</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -172,7 +181,7 @@
                                 <div class="col-md-12">
                                     <div class="card">
                                         <div class="card-body height-8"> <!-- TEMP FOR SCREENSHOT, STYLE -->
-                                            <div id="feature-summary-graph" class="height-7" data-color="#F50057"></div>
+                                            <div id="feature-summary-graph" class="height-7" data-color="#f45f21"></div>
                                         </div>
                                     </div>
                                 </div>
