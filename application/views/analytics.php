@@ -47,8 +47,8 @@
 <body class="menubar-hoverable header-fixed">
 <div style="height: 300px; background-color: #83d2bd;">
     <div id="header-container" style="padding-left: 12%; padding-right: 12%;">
-        <h1 style="color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding-top: 36px; font-weight: 300;"> Peter Gregory </h1>
-        <h3 style="color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding-top: 8px; font-weight: 100;"> Alercron Acne Cream</h3>
+        <h1 style="color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding-top: 36px; font-weight: 300;">Peter Gregory </h1>
+        <h3 style="color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding-top: 8px; font-weight: 100;">Alercron Acne Cream Study by SCR Trials</h3>
         <div class="btn-group">
             <button type="button" class="btn-flat dropdown-toggle" data-toggle="dropdown" aria-expanded="false" style="margin-left: -8px;">
                 <h3 style="color: #ffffff; margin-top: 0px; margin-bottom: 0px; padding-top: 8px; font-weight: 100;"> Session #1
@@ -76,13 +76,10 @@
                     <div class="row">
                         <!-- BEGIN SITE ACTIVITY -->
                         <div class="col-md-12">
-                            <div class="col-lg-12" style="padding-left: 0px; padding-right: 0px;">
-                                <h3 style="margin-top: 0px; margin-bottom: 12px; color: white;">Overview</h3>
-                            </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="col-lg-12" style="padding-left: 0px; padding-right: 0px;">
-                                        <h3 style="margin-top: 0px; margin-bottom: 12px; color: white;"><!--Overview--> <br/></h3>
+                                        <!--<h3 style="margin-top: 0px; margin-bottom: 12px; color: white;">Overview<br/></h3>-->
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -103,7 +100,7 @@
                                                         <ul>
                                                        		<li>Date- 5/25/17</li>
                                                        		<li>Time- 3:00pm</li>
-                                                       		<li>Location- 10801 MoPac Expy, Austin, TX 78759</li>
+                                                       		<li><a href="#siteMap">Location- 10801 MoPac Expy, Austin, TX 78759</a></li>
                                                         </ul>
 
 
@@ -130,6 +127,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!--
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="col-lg-12">
@@ -139,14 +138,14 @@
                                     <div class="card">
                                         <div class="card-body no-padding">
                                             <div class="alert alert-callout no-margin">
-                                                <span class="pull-right" style="padding-top: 22px;"><i class="fa fa-exclamation text-warning" style="padding-right: 10px;"></i>Medium engagement</span> <!-- TEMP, fix this styling -->
+                                                <span class="pull-right" style="padding-top: 22px;"><i class="fa fa-exclamation text-warning" style="padding-right: 10px;"></i>Medium engagement</span> <!-- TEMP, fix this styling --><!--
                                                 <strong class="text-xl"><?php echo number_format(123.123, 2); ?></strong><br/>
-                                                <span class="opacity-50">Sessions per User</span> <!-- I don't like this area -->
+                                                <span class="opacity-50">Sessions per User</span> <!-- I don't like this area --><!--
                                             </div>
                                         </div><!--end .card-body -->
-                                    </div><!--end .card -->
-                                </div><!--end .col -->
-                            </div>
+                                   <!-- </div><!--end .card -->
+                             <!--   </div><!--end .col -->
+                         <!--  </div>
                             <div class="col-md-6">
                                 <div class="col-lg-12">
                                     <h3>Device Breakdown</h3>
@@ -156,12 +155,12 @@
                                         <div class="card-body no-padding">
                                             <div class="alert alert-callout no-margin">
                                                 <strong class="text-xl">23</strong><br/>
-                                                <span class="opacity-50">iOS Users</span> <!-- I don't like this area -->
-                                            </div>
-                                        </div><!--end .card-body -->
-                                    </div><!--end .card -->
-                                </div><!--end .col -->
-                                <div class="col-md-6 col-sm-6">
+                           <!--                     <span class="opacity-50">iOS Users</span> <!-- I don't like this area -->
+                          <!--                  </div>
+                       <!--                 </div><!--end .card-body -->
+                       <!--             </div><!--end .card -->
+                       <!--         </div><!--end .col -->
+                       <!--         <div class="col-md-6 col-sm-6">
                                     <div class="card">
                                         <div class="card-body no-padding">
                                             <div class="alert alert-callout no-margin">
@@ -169,10 +168,12 @@
                                                 <span class="opacity-50">Android Users</span>
                                             </div>
                                         </div><!--end .card-body -->
-                                    </div><!--end .card -->
-                                </div><!--end .col -->
-                            </div>
+                       <!--             </div><!--end .card -->
+                       <!--         </div><!--end .col -->
+                       <!--     </div>
                         </div><!--end .row -->
+
+<!--
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="col-lg-12">
@@ -181,21 +182,23 @@
                                 <div class="col-md-12">
                                     <div class="card">
                                         <div class="card-body height-8"> <!-- TEMP FOR SCREENSHOT, STYLE -->
-                                            <div id="feature-summary-graph" class="height-7" data-color="#f45f21"></div>
+                             <!--               <div id="feature-summary-graph" class="height-7" data-color="#f45f21"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div><!--end .row -->
+
+
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="col-lg-12">
-                                    <h3>Appointments</h3>
+                                    <h3>Appointment Schedule </h3>
                                 </div>
                                 <!-- BEGIN CALENDAR -->
                                 <div class="col-sm-12">
                                     <div class="card">
-                                        <div class="card-head style-primary" style="background-color: #3F51B5;">
+                                        <div class="card-head style-primary" style="background-color: #83d2bd;">
                                             <header>
                                                 <span class="selected-day">&nbsp;</span> &nbsp;	<small class="selected-date">&nbsp;</small>
                                             </header>
@@ -219,10 +222,10 @@
                                 </div><!--end .col -->
                             </div>
                         </div><!--end .row -->
-                        <div class="row">
+                        <div class="row" style="margin-bottom: 48px;">
                             <div class="col-md-12">
                                 <div class="col-lg-12">
-                                    <h3>Map</h3>
+                                    <h3>Site Map<a name="siteMap"></a></h3>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="card">
